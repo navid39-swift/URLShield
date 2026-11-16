@@ -1,0 +1,824 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 110;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D33650DA30865DBB0047B058 /* URLShieldShare.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = D33650D030865DBB0047B058 /* URLShieldShare.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D33650EB30865DE70047B058 /* URLShieldFilter.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = D33650E430865DE70047B058 /* URLShieldFilter.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D33650D830865DBB0047B058 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3AC8EC1307F817A00C47BF6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D33650CF30865DBB0047B058;
+			remoteInfo = URLShieldShare;
+		};
+		D33650E930865DE70047B058 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3AC8EC1307F817A00C47BF6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D33650E330865DE70047B058;
+			remoteInfo = URLShieldFilter;
+		};
+		D3AC8EEA307F8CD900C47BF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3AC8EC1307F817A00C47BF6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3AC8EC8307F817A00C47BF6;
+			remoteInfo = URLShield1;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D33650DF30865DBB0047B058 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			dstPath = "";
+			dstSubfolder = PlugIns;
+			files = (
+				D33650DA30865DBB0047B058 /* URLShieldShare.appex in Embed Foundation Extensions */,
+				D33650EB30865DE70047B058 /* URLShieldFilter.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D33650D030865DBB0047B058 /* URLShieldShare.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = URLShieldShare.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		D33650E430865DE70047B058 /* URLShieldFilter.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = URLShieldFilter.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3AC8EC9307F817A00C47BF6 /* URLShield1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = URLShield1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3AC8EE6307F8CD900C47BF6 /* URLShield1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = URLShield1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		D33650DE30865DBB0047B058 /* Exceptions for "URLShieldShare" folder in "URLShieldShare" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = D33650CF30865DBB0047B058 /* URLShieldShare */;
+		};
+		D33650EF30865DE70047B058 /* Exceptions for "URLShieldFilter" folder in "URLShieldFilter" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = D33650E330865DE70047B058 /* URLShieldFilter */;
+		};
+		D3AC8EF1307F8E2200C47BF6 /* Exceptions for "URLShield1" folder in "URLShield1" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				HostParityCases.swift,
+			);
+			target = D3AC8EC8307F817A00C47BF6 /* URLShield1 */;
+		};
+		D3AC8EF2307F8E2200C47BF6 /* Exceptions for "URLShield1" folder in "URLShield1Tests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				HostParityCases.swift,
+			);
+			target = D3AC8EE5307F8CD900C47BF6 /* URLShield1Tests */;
+		};
+		D3FF00000000000000000A01 /* Exceptions for "URLShield1" folder in "URLShieldShare" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				allowlist.json,
+				HostFeatureExtractor.swift,
+				HostPhishingPredicto.swift,
+				LanguageSettings.swift,
+				LinkAnalyzer.swift,
+				Localizable.xcstrings,
+				ModelStore.swift,
+				ResultCard.swift,
+				"RiskLevel+Presentation.swift",
+				special_hosts.json,
+				tld_rates.json,
+				TyposquatDetector.swift,
+				URLShieldHost.mlmodel,
+			);
+			target = D33650CF30865DBB0047B058 /* URLShieldShare */;
+		};
+		D3FF00000000000000000A02 /* Exceptions for "URLShield1" folder in "URLShieldFilter" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				allowlist.json,
+				HostFeatureExtractor.swift,
+				HostPhishingPredicto.swift,
+				LanguageSettings.swift,
+				LinkAnalyzer.swift,
+				Localizable.xcstrings,
+				ModelStore.swift,
+				special_hosts.json,
+				tld_rates.json,
+				TyposquatDetector.swift,
+				URLShieldHost.mlmodel,
+			);
+			target = D33650E330865DE70047B058 /* URLShieldFilter */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		D33650D130865DBB0047B058 /* URLShieldShare */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				D33650DE30865DBB0047B058 /* Exceptions for "URLShieldShare" folder in "URLShieldShare" target */,
+			);
+			path = URLShieldShare;
+			sourceTree = "<group>";
+		};
+		D33650E530865DE70047B058 /* URLShieldFilter */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				D33650EF30865DE70047B058 /* Exceptions for "URLShieldFilter" folder in "URLShieldFilter" target */,
+			);
+			path = URLShieldFilter;
+			sourceTree = "<group>";
+		};
+		D3AC8ECB307F817A00C47BF6 /* URLShield1 */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				D3AC8EF1307F8E2200C47BF6 /* Exceptions for "URLShield1" folder in "URLShield1" target */,
+				D3AC8EF2307F8E2200C47BF6 /* Exceptions for "URLShield1" folder in "URLShield1Tests" target */,
+				D3FF00000000000000000A01 /* Exceptions for "URLShield1" folder in "URLShieldShare" target */,
+				D3FF00000000000000000A02 /* Exceptions for "URLShield1" folder in "URLShieldFilter" target */,
+			);
+			path = URLShield1;
+			sourceTree = "<group>";
+		};
+		D3AC8EE7307F8CD900C47BF6 /* URLShield1Tests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = URLShield1Tests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D33650CD30865DBB0047B058 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		D33650E130865DE70047B058 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		D3AC8EC6307F817A00C47BF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		D3AC8EE3307F8CD900C47BF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D3AC8EC0307F817A00C47BF6 = {
+			isa = PBXGroup;
+			children = (
+				D3AC8ECB307F817A00C47BF6 /* URLShield1 */,
+				D3AC8EE7307F8CD900C47BF6 /* URLShield1Tests */,
+				D33650D130865DBB0047B058 /* URLShieldShare */,
+				D33650E530865DE70047B058 /* URLShieldFilter */,
+				D3AC8ECA307F817A00C47BF6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3AC8ECA307F817A00C47BF6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3AC8EC9307F817A00C47BF6 /* URLShield1.app */,
+				D3AC8EE6307F8CD900C47BF6 /* URLShield1Tests.xctest */,
+				D33650D030865DBB0047B058 /* URLShieldShare.appex */,
+				D33650E430865DE70047B058 /* URLShieldFilter.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D33650CF30865DBB0047B058 /* URLShieldShare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D33650DB30865DBB0047B058 /* Build configuration list for PBXNativeTarget "URLShieldShare" */;
+			buildPhases = (
+				D33650CC30865DBB0047B058 /* Sources */,
+				D33650CD30865DBB0047B058 /* Frameworks */,
+				D33650CE30865DBB0047B058 /* Resources */,
+			);
+			buildRules = (
+			);
+			fileSystemSynchronizedGroups = (
+				D33650D130865DBB0047B058 /* URLShieldShare */,
+			);
+			name = URLShieldShare;
+			productName = URLShieldShare;
+			productReference = D33650D030865DBB0047B058 /* URLShieldShare.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		D33650E330865DE70047B058 /* URLShieldFilter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D33650EC30865DE70047B058 /* Build configuration list for PBXNativeTarget "URLShieldFilter" */;
+			buildPhases = (
+				D33650E030865DE70047B058 /* Sources */,
+				D33650E130865DE70047B058 /* Frameworks */,
+				D33650E230865DE70047B058 /* Resources */,
+			);
+			buildRules = (
+			);
+			fileSystemSynchronizedGroups = (
+				D33650E530865DE70047B058 /* URLShieldFilter */,
+			);
+			name = URLShieldFilter;
+			productName = URLShieldFilter;
+			productReference = D33650E430865DE70047B058 /* URLShieldFilter.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		D3AC8EC8307F817A00C47BF6 /* URLShield1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3AC8ED4307F817B00C47BF6 /* Build configuration list for PBXNativeTarget "URLShield1" */;
+			buildPhases = (
+				D3AC8EC5307F817A00C47BF6 /* Sources */,
+				D3AC8EC6307F817A00C47BF6 /* Frameworks */,
+				D3AC8EC7307F817A00C47BF6 /* Resources */,
+				D33650DF30865DBB0047B058 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D33650D930865DBB0047B058 /* PBXTargetDependency */,
+				D33650EA30865DE70047B058 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D3AC8ECB307F817A00C47BF6 /* URLShield1 */,
+			);
+			name = URLShield1;
+			productName = URLShield1;
+			productReference = D3AC8EC9307F817A00C47BF6 /* URLShield1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D3AC8EE5307F8CD900C47BF6 /* URLShield1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3AC8EEC307F8CD900C47BF6 /* Build configuration list for PBXNativeTarget "URLShield1Tests" */;
+			buildPhases = (
+				D3AC8EE2307F8CD900C47BF6 /* Sources */,
+				D3AC8EE3307F8CD900C47BF6 /* Frameworks */,
+				D3AC8EE4307F8CD900C47BF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3AC8EEB307F8CD900C47BF6 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D3AC8EE7307F8CD900C47BF6 /* URLShield1Tests */,
+			);
+			name = URLShield1Tests;
+			productName = URLShield1Tests;
+			productReference = D3AC8EE6307F8CD900C47BF6 /* URLShield1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3AC8EC1307F817A00C47BF6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2710;
+				LastUpgradeCheck = 2710;
+				TargetAttributes = {
+					D33650CF30865DBB0047B058 = {
+						CreatedOnToolsVersion = 27.1;
+					};
+					D33650E330865DE70047B058 = {
+						CreatedOnToolsVersion = 27.1;
+					};
+					D3AC8EC8307F817A00C47BF6 = {
+						CreatedOnToolsVersion = 27.0;
+					};
+					D3AC8EE5307F8CD900C47BF6 = {
+						CreatedOnToolsVersion = 27.0;
+						TestTargetID = D3AC8EC8307F817A00C47BF6;
+					};
+				};
+			};
+			buildConfigurationList = D3AC8EC4307F817A00C47BF6 /* Build configuration list for PBXProject "URLShield1" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				it,
+			);
+			mainGroup = D3AC8EC0307F817A00C47BF6;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D3AC8ECA307F817A00C47BF6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3AC8EC8307F817A00C47BF6 /* URLShield1 */,
+				D3AC8EE5307F8CD900C47BF6 /* URLShield1Tests */,
+				D33650CF30865DBB0047B058 /* URLShieldShare */,
+				D33650E330865DE70047B058 /* URLShieldFilter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D33650CE30865DBB0047B058 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		D33650E230865DE70047B058 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		D3AC8EC7307F817A00C47BF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		D3AC8EE4307F8CD900C47BF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D33650CC30865DBB0047B058 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		D33650E030865DE70047B058 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		D3AC8EC5307F817A00C47BF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		D3AC8EE2307F8CD900C47BF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D33650D930865DBB0047B058 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D33650CF30865DBB0047B058 /* URLShieldShare */;
+			targetProxy = D33650D830865DBB0047B058 /* PBXContainerItemProxy */;
+		};
+		D33650EA30865DE70047B058 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D33650E330865DE70047B058 /* URLShieldFilter */;
+			targetProxy = D33650E930865DE70047B058 /* PBXContainerItemProxy */;
+		};
+		D3AC8EEB307F8CD900C47BF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3AC8EC8307F817A00C47BF6 /* URLShield1 */;
+			targetProxy = D3AC8EEA307F8CD900C47BF6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D33650DC30865DBB0047B058 /* Debug configuration for PBXNativeTarget "URLShieldShare" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = URLShieldShare/URLShieldShare.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = CN37BUY6SX;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = URLShieldShare/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = URLShield;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.navidzare.URLShield1.URLShieldShare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D33650DD30865DBB0047B058 /* Release configuration for PBXNativeTarget "URLShieldShare" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = URLShieldShare/URLShieldShare.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = CN37BUY6SX;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = URLShieldShare/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = URLShield;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.navidzare.URLShield1.URLShieldShare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		D33650ED30865DE70047B058 /* Debug configuration for PBXNativeTarget "URLShieldFilter" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = URLShieldFilter/URLShieldFilter.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = CN37BUY6SX;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = URLShieldFilter/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = URLShield;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.navidzare.URLShield1.URLShieldFilter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D33650EE30865DE70047B058 /* Release configuration for PBXNativeTarget "URLShieldFilter" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = URLShieldFilter/URLShieldFilter.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = CN37BUY6SX;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = URLShieldFilter/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = URLShield;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.navidzare.URLShield1.URLShieldFilter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		D3AC8ED2307F817B00C47BF6 /* Debug configuration for PBXProject "URLShield1" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = CN37BUY6SX;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D3AC8ED3307F817B00C47BF6 /* Release configuration for PBXProject "URLShield1" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = CN37BUY6SX;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3AC8ED5307F817B00C47BF6 /* Debug configuration for PBXNativeTarget "URLShield1" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = URLShield1/URLShield1.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = CN37BUY6SX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = URLShield;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.navidzare.URLShield1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D3AC8ED6307F817B00C47BF6 /* Release configuration for PBXNativeTarget "URLShield1" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = URLShield1/URLShield1.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = CN37BUY6SX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = URLShield;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.navidzare.URLShield1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		D3AC8EED307F8CD900C47BF6 /* Debug configuration for PBXNativeTarget "URLShield1Tests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CN37BUY6SX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.navidzare.URLShield1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/URLShield1.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/URLShield1";
+			};
+			name = Debug;
+		};
+		D3AC8EEE307F8CD900C47BF6 /* Release configuration for PBXNativeTarget "URLShield1Tests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CN37BUY6SX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.navidzare.URLShield1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/URLShield1.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/URLShield1";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D33650DB30865DBB0047B058 /* Build configuration list for PBXNativeTarget "URLShieldShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D33650DC30865DBB0047B058 /* Debug configuration for PBXNativeTarget "URLShieldShare" */,
+				D33650DD30865DBB0047B058 /* Release configuration for PBXNativeTarget "URLShieldShare" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		D33650EC30865DE70047B058 /* Build configuration list for PBXNativeTarget "URLShieldFilter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D33650ED30865DE70047B058 /* Debug configuration for PBXNativeTarget "URLShieldFilter" */,
+				D33650EE30865DE70047B058 /* Release configuration for PBXNativeTarget "URLShieldFilter" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		D3AC8EC4307F817A00C47BF6 /* Build configuration list for PBXProject "URLShield1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3AC8ED2307F817B00C47BF6 /* Debug configuration for PBXProject "URLShield1" */,
+				D3AC8ED3307F817B00C47BF6 /* Release configuration for PBXProject "URLShield1" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		D3AC8ED4307F817B00C47BF6 /* Build configuration list for PBXNativeTarget "URLShield1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3AC8ED5307F817B00C47BF6 /* Debug configuration for PBXNativeTarget "URLShield1" */,
+				D3AC8ED6307F817B00C47BF6 /* Release configuration for PBXNativeTarget "URLShield1" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		D3AC8EEC307F8CD900C47BF6 /* Build configuration list for PBXNativeTarget "URLShield1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3AC8EED307F8CD900C47BF6 /* Debug configuration for PBXNativeTarget "URLShield1Tests" */,
+				D3AC8EEE307F8CD900C47BF6 /* Release configuration for PBXNativeTarget "URLShield1Tests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3AC8EC1307F817A00C47BF6 /* Project object */;
+	validationLevel = 1;
+}

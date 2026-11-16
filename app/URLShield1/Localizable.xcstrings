@@ -1,0 +1,909 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "10 rounds. Tap the official website of the company." : {
+      "localizations" : {
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "10 round. Tocca il sito ufficiale dell'azienda."
+          }
+        }
+      }
+    },
+    "A character imitates another letter, like 1 for l or 0 for o." : {
+      "localizations" : {
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Un carattere ne imita un altro, come 1 al posto di l o 0 al posto di o."
+          }
+        }
+      }
+    },
+    "A letter is doubled or missing." : {
+      "localizations" : {
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Una lettera è raddoppiata o manca."
+          }
+        }
+      }
+    },
+    "A machine learning model and clear rules judge it, without opening the link." : {
+      "localizations" : {
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Un modello di machine learning e regole chiare lo valutano, senza aprire il link."
+          }
+        }
+      }
+    },
+    "About" : {
+      "localizations" : {
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Info"
+          }
+        }
+      }
+    },
+    "About URLShield" : {
+      "localizations" : {
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Informazioni su URLShield"
+          }
+        }
+      }
+    },
+    "Anyone can publish pages on this platform, so the domain alone can't tell whether this page is safe." : {
+      "localizations" : {
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chiunque può pubblicare pagine su questa piattaforma, quindi il dominio da solo non dice se questa pagina è sicura."
+          }
+        }
+      }
+    },
+    "Automatically moves SMS with dangerous links from unknown senders to Junk." : {
+      "localizations" : {
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sposta automaticamente nella Posta indesiderata gli SMS con link pericolosi da mittenti sconosciuti."
+          }
+        }
+      }
+    },
+    "Be careful. If the message claims to be from a company, contact it through its official app or website instead." : {
+      "localizations" : {
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fai attenzione. Se il messaggio dice di venire da un'azienda, contattala tramite la sua app o il suo sito ufficiale."
+          }
+        }
+      }
+    },
+    "Best score: %lld/10" : {
+      "localizations" : {
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Record: %lld/10"
+          }
+        }
+      }
+    },
+    "Check" : {
+      "localizations" : {
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Controlla"
+          }
+        }
+      }
+    },
+    "Check any link or text with the Share button, without leaving the app you are in." : {
+      "localizations" : {
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Controlla qualsiasi link o testo con il pulsante Condividi, senza uscire dall'app in cui sei."
+          }
+        }
+      }
+    },
+    "Check before you tap." : {
+      "localizations" : {
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Controlla prima di toccare."
+          }
+        }
+      }
+    },
+    "Check for model updates" : {
+      "localizations" : {
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cerca aggiornamenti del modello"
+          }
+        }
+      }
+    },
+    "Check links" : {
+      "localizations" : {
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Controlla i link"
+          }
+        }
+      }
+    },
+    "Choose where URLShield protects you. For your privacy, iOS lets only you turn these on." : {
+      "localizations" : {
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scegli dove URLShield ti protegge. Per la tua privacy, iOS permette solo a te di attivare queste funzioni."
+          }
+        }
+      }
+    },
+    "Clear" : {
+      "localizations" : {
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cancella"
+          }
+        }
+      }
+    },
+    "Contains an @ before the address, a trick to hide the real site." : {
+      "localizations" : {
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Contiene una @ prima dell'indirizzo, un trucco per nascondere il vero sito."
+          }
+        }
+      }
+    },
+    "Correct!" : {
+      "localizations" : {
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Giusto!"
+          }
+        }
+      }
+    },
+    "Don't open this link and don't enter any personal information." : {
+      "localizations" : {
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Non aprire questo link e non inserire dati personali."
+          }
+        }
+      }
+    },
+    "Done" : {
+      "localizations" : {
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fine"
+          }
+        }
+      }
+    },
+    "Everything happens on your iPhone. Nothing you paste is sent anywhere." : {
+      "localizations" : {
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tutto avviene sul tuo iPhone. Niente di ciò che incolli viene inviato altrove."
+          }
+        }
+      }
+    },
+    "Everything stays on your iPhone. Nothing you check is sent anywhere." : {
+      "localizations" : {
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tutto resta sul tuo iPhone. Niente di ciò che controlli viene inviato altrove."
+          }
+        }
+      }
+    },
+    "Excellent, scammers will have a hard time with you." : {
+      "localizations" : {
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ottimo, i truffatori avranno vita dura con te."
+          }
+        }
+      }
+    },
+    "Extra words were added to the real name to make it look official." : {
+      "localizations" : {
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sono state aggiunte parole al nome vero per farlo sembrare ufficiale."
+          }
+        }
+      }
+    },
+    "Good, but look closely at every character." : {
+      "localizations" : {
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bene, ma guarda con attenzione ogni carattere."
+          }
+        }
+      }
+    },
+    "Hidden destination" : {
+      "localizations" : {
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Destinazione nascosta"
+          }
+        }
+      }
+    },
+    "Hosted on a platform where anyone can publish content." : {
+      "localizations" : {
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ospitato su una piattaforma dove chiunque può pubblicare contenuti."
+          }
+        }
+      }
+    },
+    "How it works" : {
+      "localizations" : {
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Come funziona"
+          }
+        }
+      }
+    },
+    "In any app, tap Share (or long-press a link, then Share)." : {
+      "localizations" : {
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In qualsiasi app, tocca Condividi (o tieni premuto un link, poi Condividi)."
+          }
+        }
+      }
+    },
+    "Keep practicing: these tricks fool many people." : {
+      "localizations" : {
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Continua ad allenarti: questi trucchi ingannano molte persone."
+          }
+        }
+      }
+    },
+    "Known site" : {
+      "localizations" : {
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sito conosciuto"
+          }
+        }
+      }
+    },
+    "Language" : {
+      "localizations" : {
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lingua"
+          }
+        }
+      }
+    },
+    "Likely phishing" : {
+      "localizations" : {
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Probabile phishing"
+          }
+        }
+      }
+    },
+    "Limits" : {
+      "localizations" : {
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Limiti"
+          }
+        }
+      }
+    },
+    "Link in message: %@" : {
+      "localizations" : {
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Link nel messaggio: %@"
+          }
+        }
+      }
+    },
+    "Looks very similar to “%@”, a common trick called typosquatting." : {
+      "localizations" : {
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Assomiglia molto a “%@”: un trucco comune chiamato typosquatting."
+          }
+        }
+      }
+    },
+    "Mentions “%@” but is not its official website." : {
+      "localizations" : {
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cita “%@” ma non è il suo sito ufficiale."
+          }
+        }
+      }
+    },
+    "Messages (SMS)" : {
+      "localizations" : {
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Messaggi (SMS)"
+          }
+        }
+      }
+    },
+    "Model score: %@ phishing likelihood" : {
+      "localizations" : {
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Punteggio del modello: %@ di probabilità di phishing"
+          }
+        }
+      }
+    },
+    "Model updates are not available yet." : {
+      "localizations" : {
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gli aggiornamenti del modello non sono ancora disponibili."
+          }
+        }
+      }
+    },
+    "Model version" : {
+      "localizations" : {
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Versione del modello"
+          }
+        }
+      }
+    },
+    "Model version %lld installed. It will be used the next time you open URLShield." : {
+      "localizations" : {
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Versione %lld del modello installata. Verrà usata la prossima volta che apri URLShield."
+          }
+        }
+      }
+    },
+    "Next" : {
+      "localizations" : {
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avanti"
+          }
+        }
+      }
+    },
+    "No account, no tracking, works offline." : {
+      "localizations" : {
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nessun account, nessun tracciamento, funziona offline."
+          }
+        }
+      }
+    },
+    "No links found" : {
+      "localizations" : {
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nessun link trovato"
+          }
+        }
+      }
+    },
+    "No red flags found" : {
+      "localizations" : {
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nessun segnale di pericolo"
+          }
+        }
+      }
+    },
+    "No tool can guarantee that a link is safe. Hacked websites and brand-new tricks can look normal. When in doubt, contact the company through its official app or website." : {
+      "localizations" : {
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nessuno strumento può garantire che un link sia sicuro. Siti violati e trucchi nuovi possono sembrare normali. Nel dubbio, contatta l'azienda tramite la sua app o il suo sito ufficiale."
+          }
+        }
+      }
+    },
+    "Not quite." : {
+      "localizations" : {
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Non proprio."
+          }
+        }
+      }
+    },
+    "Open Settings" : {
+      "localizations" : {
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apri Impostazioni"
+          }
+        }
+      }
+    },
+    "Open Settings, then Apps, then Messages." : {
+      "localizations" : {
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apri Impostazioni, poi App, poi Messaggi."
+          }
+        }
+      }
+    },
+    "Open platform" : {
+      "localizations" : {
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Piattaforma aperta"
+          }
+        }
+      }
+    },
+    "Paste a message, an email or a link." : {
+      "localizations" : {
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Incolla un messaggio, un'email o un link."
+          }
+        }
+      }
+    },
+    "Paste a message, an email or a link. URLShield checks every link on your iPhone, without opening it." : {
+      "localizations" : {
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Incolla un messaggio, un'email o un link. URLShield controlla ogni link sul tuo iPhone, senza aprirlo."
+          }
+        }
+      }
+    },
+    "Play again" : {
+      "localizations" : {
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gioca ancora"
+          }
+        }
+      }
+    },
+    "Protection" : {
+      "localizations" : {
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Protezione"
+          }
+        }
+      }
+    },
+    "Read the domain from the right: the real website is the part just before the ending." : {
+      "localizations" : {
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Leggi il dominio da destra: il sito vero è la parte subito prima della fine."
+          }
+        }
+      }
+    },
+    "Round %lld of %lld" : {
+      "localizations" : {
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Round %lld di %lld"
+          }
+        }
+      }
+    },
+    "Safari, Mail, WhatsApp and other apps" : {
+      "localizations" : {
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Safari, Mail, WhatsApp e altre app"
+          }
+        }
+      }
+    },
+    "See result" : {
+      "localizations" : {
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vedi risultato"
+          }
+        }
+      }
+    },
+    "Shortened link: the real destination is hidden." : {
+      "localizations" : {
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Link accorciato: la vera destinazione è nascosta."
+          }
+        }
+      }
+    },
+    "Spot the fake" : {
+      "localizations" : {
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scova il falso"
+          }
+        }
+      }
+    },
+    "Start" : {
+      "localizations" : {
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inizia"
+          }
+        }
+      }
+    },
+    "Suspicious" : {
+      "localizations" : {
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sospetto"
+          }
+        }
+      }
+    },
+    "Swipe the row of apps to the end and tap More." : {
+      "localizations" : {
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scorri la fila di app fino in fondo e tocca Altro."
+          }
+        }
+      }
+    },
+    "Tap “Text Message Filter” and choose URLShield." : {
+      "localizations" : {
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tocca “Filtro messaggi di testo” e scegli URLShield."
+          }
+        }
+      }
+    },
+    "The detection model could not be loaded." : {
+      "localizations" : {
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Impossibile caricare il modello di rilevamento."
+          }
+        }
+      }
+    },
+    "The ending was changed to an unusual, cheap one." : {
+      "localizations" : {
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La parte finale è stata cambiata con una insolita ed economica."
+          }
+        }
+      }
+    },
+    "The model" : {
+      "localizations" : {
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Il modello"
+          }
+        }
+      }
+    },
+    "The model is up to date." : {
+      "localizations" : {
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Il modello è aggiornato."
+          }
+        }
+      }
+    },
+    "The real one is %@." : {
+      "localizations" : {
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quello vero è %@."
+          }
+        }
+      }
+    },
+    "The update could not be verified or downloaded. Try again later." : {
+      "localizations" : {
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Impossibile scaricare o verificare l'aggiornamento. Riprova più tardi."
+          }
+        }
+      }
+    },
+    "This is a shortened link. Its real destination can't be seen without opening it." : {
+      "localizations" : {
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Questo è un link accorciato. La sua vera destinazione non si può vedere senza aprirlo."
+          }
+        }
+      }
+    },
+    "This is the official domain of a well-known website. Check that the domain below is exactly the one you expect." : {
+      "localizations" : {
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Questo è il dominio ufficiale di un sito noto. Controlla che il dominio qui sotto sia esattamente quello che ti aspetti."
+          }
+        }
+      }
+    },
+    "This text doesn't contain any web links." : {
+      "localizations" : {
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Questo testo non contiene link web."
+          }
+        }
+      }
+    },
+    "Trained on 800,484 web addresses from three public sources: the PhiUSIIL research dataset (UCI, CC BY 4.0), Phishing.Database (© Mitchell Krog, MIT License) and the Tranco list of popular sites. On websites it had never seen, when it is very sure it catches about 6 phishing sites in 10, with about 1 false alarm per 1,000 normal sites." : {
+      "localizations" : {
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Addestrato su 800.484 indirizzi web da tre fonti pubbliche: il dataset di ricerca PhiUSIIL (UCI, CC BY 4.0), Phishing.Database (© Mitchell Krog, licenza MIT) e la lista Tranco dei siti più popolari. Su siti mai visti prima, quando è molto sicuro riconosce circa 6 siti di phishing su 10, con circa 1 falso allarme ogni 1.000 siti normali."
+          }
+        }
+      }
+    },
+    "Turn on URLShield, then tap Done." : {
+      "localizations" : {
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Attiva URLShield, poi tocca Fine."
+          }
+        }
+      }
+    },
+    "Turn on “Screen Unknown Senders”." : {
+      "localizations" : {
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Attiva “Filtra mittenti sconosciuti”."
+          }
+        }
+      }
+    },
+    "URLShield" : {
+      "shouldTranslate" : false
+    },
+    "URLShield finds every link and checks its real domain." : {
+      "localizations" : {
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "URLShield trova ogni link e ne controlla il vero dominio."
+          }
+        }
+      }
+    },
+    "Updates are only downloaded and verified on your iPhone. Nothing is uploaded." : {
+      "localizations" : {
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gli aggiornamenti vengono solo scaricati e verificati sul tuo iPhone. Non viene inviato nulla."
+          }
+        }
+      }
+    },
+    "Uses a raw IP address instead of a website name." : {
+      "localizations" : {
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usa un indirizzo IP invece del nome di un sito."
+          }
+        }
+      }
+    },
+    "Uses special characters that can imitate normal letters." : {
+      "localizations" : {
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usa caratteri speciali che possono imitare lettere normali."
+          }
+        }
+      }
+    },
+    "Version" : {
+      "localizations" : {
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Versione"
+          }
+        }
+      }
+    },
+    "We found no warning signs, but no tool can guarantee that a link is safe." : {
+      "localizations" : {
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Non abbiamo trovato segnali di pericolo, ma nessuno strumento può garantire che un link sia sicuro."
+          }
+        }
+      }
+    },
+    "Which one is the real website?" : {
+      "localizations" : {
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Qual è il sito vero?"
+          }
+        }
+      }
+    },
+    "Works only for senders who are not in your contacts. Screening also moves messages from unknown senders to a separate list in Messages." : {
+      "localizations" : {
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Funziona solo per i mittenti che non sono nei tuoi contatti. Il filtro sposta anche i messaggi dei mittenti sconosciuti in un elenco separato in Messaggi."
+          }
+        }
+      }
+    },
+    "You copied a link" : {
+      "localizations" : {
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hai copiato un link"
+          }
+        }
+      }
+    },
+    "You got %lld out of %lld" : {
+      "localizations" : {
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hai indovinato %lld su %lld"
+          }
+        }
+      }
+    },
+    "Your privacy" : {
+      "localizations" : {
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La tua privacy"
+          }
+        }
+      }
+    },
+    "e.g. “Your package is on hold: poste-it-verifica.info/track”" : {
+      "localizations" : {
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "es. “Il tuo pacco è in giacenza: poste-it-verifica.info/track”"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}
