@@ -1,0 +1,30 @@
+# Secrets – never commit
+*.pem
+*.key
+*.p8
+*.p12
+*PRIVATE*
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+coreml_env/
+*.joblib
+
+# Large / third-party data
+ml/*.csv
+ml/fresh_data/
+ml/update_site/
+ml/model_v1/
+
+# Xcode
+xcuserdata/
+*.xcuserstate
+DerivedData/
+build/
+*.ipa
+*.xcarchive
+
+# macOS
+.DS_Store
